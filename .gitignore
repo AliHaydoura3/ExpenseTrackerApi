@@ -1,0 +1,92 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Nunit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Web resource caches
+*.sass-cache
+*.class
+*.cache
+*.project
+*.classpath
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Node.js (if using npm packages like for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish
+*.publishsettings
+.publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+# The packages folder can be ignored if package restore is enabled
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Others
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# Secrets (optional - be cautious)
+appsettings.Development.json
+secrets.json
